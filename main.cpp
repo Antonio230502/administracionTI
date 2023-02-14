@@ -10,8 +10,9 @@ void M5x5 ();
 int main()
 {
     int op;
-
-    cout<<"\tCalculadora de sistemas de ecuaciones"<<endl;
+    
+    //AQUÃ ESTÃ LA MODIFICACIÃ“N QUE HICE
+    cout<<"\tCALCULADORA DE SISTEMAS DE ECUACIONES"<<endl;
     cout<<"\n1. Matriz de 2x2"<<endl;
     cout<<"2. Matriz de 3x3"<<endl;
     cout<<"3. Matriz de 4x4"<<endl;
@@ -21,16 +22,16 @@ int main()
     switch (op)
     {
         case 1:
-            M2x2(); ///Método de reducción
+            M2x2(); ///MÃ©todo de reducciÃ³n
             break;
         case 2:
-            M3x3(); ///Método de Gauss
+            M3x3(); ///MÃ©todo de Gauss
             break;
         case 3:
-            M4x4(); ///Método de Gauss
+            M4x4(); ///MÃ©todo de Gauss
             break;
         case 4:
-            M5x5(); ///Método de Gauss
+            M5x5(); ///MÃ©todo de Gauss
             break;
     }
 
